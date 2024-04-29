@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/intLab-testing/static/css/main.3962af2c.css",
+    "main.js": "/intLab-testing/static/js/main.3e7f55fc.js",
+    "static/media/background.png": "/intLab-testing/static/media/background.f8460e70498a133d70ad.png",
+    "static/media/man.svg": "/intLab-testing/static/media/man.7d720000048184188df0942b30c64a91.svg",
+    "static/media/truck.svg": "/intLab-testing/static/media/truck.502d55953f0ec5ac4dc040d6cb8bb02a.svg",
+    "static/media/moneyBags.svg": "/intLab-testing/static/media/moneyBags.c1d792a5456b351c329b7e478dc4b7da.svg",
+    "static/media/deliveryTruck.svg": "/intLab-testing/static/media/deliveryTruck.bffb01e843e9e3aaf9f492b58418c0c9.svg",
+    "static/media/BlackLogo.svg": "/intLab-testing/static/media/BlackLogo.c1f1a612141e439ee5eaa62d40492d08.svg",
+    "static/media/LogoImg.svg": "/intLab-testing/static/media/LogoImg.621e5f4d295fa145d557fe18b1adad62.svg",
+    "static/media/waiting.svg": "/intLab-testing/static/media/waiting.512b20b5d299b7933b7447391878e7ce.svg",
+    "static/media/secure.svg": "/intLab-testing/static/media/secure.48cce6146d17431c1b70f661c66e575c.svg",
+    "static/media/slick.svg": "/intLab-testing/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/intLab-testing/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/intLab-testing/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/intLab-testing/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/intLab-testing/index.html",
+    "static/media/BurgerMenu.svg": "/intLab-testing/static/media/BurgerMenu.4817f52d0fd24a56e24f2a0b9321ee40.svg",
+    "main.3962af2c.css.map": "/intLab-testing/static/css/main.3962af2c.css.map",
+    "main.3e7f55fc.js.map": "/intLab-testing/static/js/main.3e7f55fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3962af2c.css",
+    "static/js/main.3e7f55fc.js"
+  ]
+}
