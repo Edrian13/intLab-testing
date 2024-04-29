@@ -1,0 +1,136 @@
+@import '../../../app/styles/variables';
+
+.howItWorks {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 80px;
+
+  h2 {
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    color: $black;
+    margin-bottom: 60px;
+  }
+}
+
+.container {
+  width: 1212px;
+  height: 281px;
+}
+
+.blocksContainer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.infoBlock {
+  width: 280px;
+  height: 76px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $black;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    color: $darkGray;
+  }
+
+  .infoImg {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .howItWorks {
+    h2 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .blocksContainer {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 718px;
+    height: 382px;
+  }
+
+  .infoBlock {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 320px;
+    height: 76px;
+    margin-bottom: 32px;
+  }
+
+  .infoImg {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .howItWorks {
+    h2 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .blocksContainer {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 718px;
+    height: 282px;
+  }
+
+  .infoBlock {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 270px;
+    height: 76px;
+    margin-bottom: 32px;
+  }
+
+  .infoImg {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    height: 600px;
+    width: 342px;
+  }
+}
+
+@media (max-width: 375px) {
+  .howItWorks {
+    h2 {
+      margin-bottom: 26px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .container {
+    width: 342px;
+    height: 458px;
+  }
+}

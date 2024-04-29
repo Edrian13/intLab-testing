@@ -1,0 +1,61 @@
+@import '../../../app/styles/variables';
+
+.review {
+  width: 341px;
+  min-height: 316px;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.authorInfo {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+
+  h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: $black;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    color: $darkGray;
+  }
+}
+
+.auhtorImage {
+  width: 44px;
+  height: 44px;
+
+  img {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 99px;
+  }
+}
+
+.textReview {
+  font-size: 14px;
+  line-height: 24px;
+  color: $black;
+}
+
+@media (max-width: 768px) {
+  .review {
+    width: 340px;
+    height: 281px;
+  }
+}
+
+@media (max-width: 375px) {
+  .review {
+    width: 288px;
+    height: 335px;
+  }
+}

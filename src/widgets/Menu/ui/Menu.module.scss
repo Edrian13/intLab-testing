@@ -1,0 +1,54 @@
+@import '../../../app//styles//variables';
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 275px;
+  height: 350px;
+  background-color: $white;
+  padding-left: 16px;
+  padding-right: 32px;
+  color: $black;
+  z-index: 2;
+}
+
+.header {
+  display: flex;
+  width: 243px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $lightGray;
+}
+
+.closeIcon {
+  color: $black;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (max-width: 450px) {
+  .menu {
+    width: 180px;
+    height: 240px;
+  }
+
+  .header {
+    width: 150px;
+    height: 40px;
+  }
+
+  .closeIcon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .closeIcon {
+    margin-right: 0;
+  }
+}

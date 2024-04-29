@@ -1,0 +1,63 @@
+@import '../../../app/styles/variables';
+
+.promoBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    width: 748px;
+    margin-bottom: 18px;
+    color: $white;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 92px;
+  }
+}
+
+.promoBlockInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .promoBlock {
+    h1 {
+      font-size: 32px;
+      line-height: 40px;
+      width: 476px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 376px), (max-width: 400px) {
+  .promoBlock {
+    h1 {
+      font-size: 24px;
+      line-height: 32px;
+      width: 288px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 26px;
+      width: 288px;
+    }
+  }
+}

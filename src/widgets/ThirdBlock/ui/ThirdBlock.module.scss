@@ -1,0 +1,134 @@
+@import '../../../app/styles/variables';
+
+.thirdBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.thirdBlockContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.info {
+  width: 592px;
+  height: 198px;
+  align-self: center;
+
+  h3 {
+    font-size: 32px;
+    line-height: 40px;
+    color: $black;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: $darkGray;
+  }
+}
+
+.imagesBlock {
+  position: relative;
+  width: 592px;
+  height: 448px;
+  margin-left: 32px;
+}
+
+.manImage {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.truckImage {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 1250px) {
+  .info {
+    width: 352px;
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .imagesBlock {
+    width: 351px;
+    height: 265px;
+  }
+
+  .thirdBlockContainer {
+    gap: 24px;
+    height: 365px;
+    width: 927px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    width: 352px;
+
+    h3 {
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .imagesBlock {
+    width: 351px;
+    height: 265px;
+  }
+
+  .thirdBlockContainer {
+    flex-direction: column-reverse;
+    gap: 24px;
+    height: 465px;
+    width: 727px;
+  }
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 376px) {
+  .info {
+    text-align: center;
+  }
+
+  .thirdBlockContainer {
+    width: 342px;
+    height: 509px;
+  }
+}
+
+@media (max-width: 350px) {
+  .thirdBlockContainer {
+    width: 280px;
+    height: 572px;
+  }
+
+  .info {
+    width: 300px;
+  }
+}

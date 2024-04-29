@@ -1,0 +1,61 @@
+@import '../../../app/styles/variables';
+
+.infoBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+.infoContainer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(2, 245px);
+  gap: 32px;
+}
+
+.info {
+  width: 592px;
+  height: 245px;
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: $black;
+  }
+}
+
+.title {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  color: $black;
+  margin-bottom: 17px;
+}
+
+@media (max-width: 1245px) {
+  .infoContainer {
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 300px);
+  }
+
+  .info {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info {
+    width: auto;
+    height: auto;
+  }
+}

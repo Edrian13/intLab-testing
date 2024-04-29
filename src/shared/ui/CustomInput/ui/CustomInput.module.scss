@@ -1,0 +1,16 @@
+@import '../../../../app/styles/variables';
+
+.customInput {
+  border: 2px solid $extralightGray;
+  border-radius: 4px;
+  height: 64px;
+  width: 384px;
+  padding: 8px 16px;
+  background-color: $extralightGray;
+}
+
+@media (max-width: 820px) {
+  .customInput {
+    width: 300px;
+  }
+}

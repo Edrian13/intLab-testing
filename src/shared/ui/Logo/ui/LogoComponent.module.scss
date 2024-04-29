@@ -1,0 +1,15 @@
+.logo {
+  cursor: pointer;
+}
+
+.blackLogo {
+  width: 120px;
+  height: 24px;
+}
+
+@media (max-width: 450px) {
+  .blackLogo {
+    width: 80px;
+    height: 20px;
+  }
+}

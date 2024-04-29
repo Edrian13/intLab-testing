@@ -1,0 +1,15 @@
+.FAQList {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 41px;
+}
+
+@media (max-width: 375px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

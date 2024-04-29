@@ -1,0 +1,48 @@
+@import '../../../../../app/styles/variables';
+
+.reviewsList {
+  background-color: $extralightGray;
+  min-height: 564px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: $black;
+  }
+}
+
+.reviewsContainer {
+  width: 1238px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+  .reviewsContainer {
+    width: 768px;
+  }
+}
+
+@media (max-width: 770px) {
+  .reviewsContainer {
+    width: 355px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reviewsList {
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .reviewsContainer {
+    width: 320px;
+  }
+}

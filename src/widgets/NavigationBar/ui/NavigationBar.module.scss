@@ -1,0 +1,18 @@
+@import '../../../app/styles/variables';
+
+.navigationBar {
+  display: flex;
+  gap: 24px;
+  width: 464px;
+}
+
+.burgerNavigation {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .navigationBar {
+    display: none;
+  }
+}
